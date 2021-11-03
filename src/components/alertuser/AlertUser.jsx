@@ -1,9 +1,11 @@
 import React from "react";
 
 function AlertUser(){
-
+    const alertwindow = () =>{
+        alert("devCodeCamp")
+    }
     return(
-           <button onClick= "alert(devCodeCamp)"> Click Me </button>
+           <button onClick={alertwindow}> Click Me </button>
 
     )
 }
