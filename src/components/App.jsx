@@ -33,8 +33,9 @@ class App extends Component {
             //         secondarAbility: 'Shoots web'
             //     }
             // ]
-        };
-
+           alertwindow: alert("devCodeCamp")
+            
+        }
     }
         
 
@@ -47,7 +48,7 @@ render(){
             <TitleBar />
             <DisplayName name={this.state} />
             <NameList listOfNames={this.state.names} /> 
-            <AlertUser />
+            <AlertUser alert={this.alertwindow}/>
         </div>
     )
 }

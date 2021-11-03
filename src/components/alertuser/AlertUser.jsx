@@ -1,11 +1,10 @@
 import React from "react";
 
-function AlertUser(){
-    const alertwindow = () =>{
-        alert("devCodeCamp")
-    }
-    return(
-           <button onClick={alertwindow}> Click Me </button>
+
+const AlertUser = (props) =>{
+    
+        return(
+           <button onClick={props.alert}> Click Me </button>
 
     )
 }
